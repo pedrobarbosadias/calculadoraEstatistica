@@ -20,24 +20,29 @@ st.markdown("""
     padding: 1rem;
     border-radius: 0.5rem;
     border-left: 4px solid #ff6b6b;
+    color: #000000;
+
 }
 .success-card {
     background-color: #d4edda;
     padding: 1rem;
     border-radius: 0.5rem;
     border-left: 4px solid #28a745;
+    color: #000000;
 }
 .warning-card {
     background-color: #fff3cd;
     padding: 1rem;
     border-radius: 0.5rem;
     border-left: 4px solid #ffc107;
+    color: #000000;
 }
 .error-card {
     background-color: #f8d7da;
     padding: 1rem;
     border-radius: 0.5rem;
     border-left: 4px solid #dc3545;
+    color: #000000;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -566,4 +571,5 @@ st.markdown("""
     <p>📊 <strong>Calculadora A/B Testing</strong> | Desenvolvido para otimizar seus testes</p>
     <p><small>Baseado em métodos estatísticos rigorosos e melhores práticas de experimentação</small></p>
 </div>
+
 """, unsafe_allow_html=True)
